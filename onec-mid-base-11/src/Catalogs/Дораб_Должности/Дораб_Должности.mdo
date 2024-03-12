@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d35c5665-7853-4bf2-9bd4-3eddb7dcf549">
+  <producedTypes>
+    <objectType typeId="1f7a5ee1-9d0f-4d81-9ca6-fef0301d8b14" valueTypeId="36b00097-5992-49ad-bfff-828768a3809f"/>
+    <refType typeId="9b4c57b5-d422-4651-bb74-5f3ccc3e0cc3" valueTypeId="4464fd32-1996-421c-b23a-52c7ee179d3f"/>
+    <selectionType typeId="f9dc8036-05d6-487a-8eca-0b6915f514bd" valueTypeId="97144a87-53ca-4257-bddc-c7b863505008"/>
+    <listType typeId="f193c6d2-42ce-4228-9cec-16736fc64d00" valueTypeId="186474b6-df55-48ae-b440-145b1f6023d2"/>
+    <managerType typeId="1b70303d-4186-43ec-9455-27c1d879b2f9" valueTypeId="62b49c0f-da92-4ba1-8bd3-43b253670808"/>
+  </producedTypes>
+  <name>Дораб_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности (Дораб)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Дораб_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Дораб_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
